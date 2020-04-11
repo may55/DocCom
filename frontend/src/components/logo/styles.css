@@ -8,15 +8,15 @@
 }
 
 .logo {
-  animation: logo-spin infinite 20s linear;
-  height: 60px;
+  
+  height: 50px;
 }
 
 .logoTitle {
   font-size: 20px !important;
   font-weight: 700 !important;
   color: white;
-  margin-left: -7px !important;
+  margin-left: +15px !important;
 }
 
 @keyframes logo-spin {
