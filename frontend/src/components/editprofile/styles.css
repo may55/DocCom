@@ -1,0 +1,14 @@
+.editProfile-avatar {
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+}
+.edit-profile-header .message{
+	background-color: #0e2565 !important;
+}
+.edit-profile-header .message .content{
+	color:white;
+}
+.close{
+	color:white;
+}

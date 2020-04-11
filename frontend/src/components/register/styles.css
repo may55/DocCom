@@ -1,0 +1,14 @@
+.register-login {
+  color: #0e2565;
+  cursor: pointer !important;
+  text-decoration: none;
+}
+.register-header .message{
+	background-color: #0e2565 !important;
+}
+.register-header .message .content{
+	color:white;
+}
+.close{
+	color:white;
+}

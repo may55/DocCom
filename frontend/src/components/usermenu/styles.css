@@ -1,0 +1,95 @@
+.userMenu {
+  display: flex;
+  align-items: center;
+  color: white !important;
+  height: inherit;
+}
+
+.userMenu-avatar{
+  margin-right: -15px;
+}
+
+.userMenu-menu{
+  background-color: #0e2565 !important;
+  height: inherit;
+}
+
+.guestMenu {
+  padding: 20px;
+  color: black;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: right;
+}
+
+.btn-sign-in {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 12px;
+  background-color: transparent;
+  height: 40px;
+  color: white;
+  border: 3px solid white;
+  outline: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.btn-sign-in:hover {
+  background-color: white;
+  opacity: 0.7;
+  color: black;
+}
+
+.btn-sign-in:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btn-register {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 12px;
+  background-color: transparent;
+  height: 40px;
+  color: white;
+  border: 3px solid white;
+  outline: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  /*margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 12px;
+  background-color: black;
+  height: 40px;
+  color: white;
+  border: 2px solid #555555;
+  outline: none;
+  cursor: pointer;*/
+}
+
+.btn-register:hover {
+  background-color: white;
+  opacity: 0.7;
+  color: black;
+  /*background-color: #555555;
+  color: white;*/
+}
+
+.btn-register:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
