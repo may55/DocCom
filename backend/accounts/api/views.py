@@ -10,6 +10,7 @@ from .permissions import IsOwnerOrAdminOrReadOnly
 from rest_framework.status import HTTP_200_OK, HTTP_400_BAD_REQUEST
 from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
+from posts.models import Post
 
 User = get_user_model()
 
@@ -19,7 +20,8 @@ from .serializers import (
     UserTokenSerializer,
     UserDetailSerializer,
     UserListSerializer,
-    UserUpdateSerializer
+    UserUpdateSerializer,
+    UserPostDetailSerializer
 )
 
 class UserCreateAPIView(generics.CreateAPIView):
@@ -32,6 +34,12 @@ class UserDetailAPIView(generics.RetrieveAPIView):
     queryset = User.objects.all()
     serializer_class = UserDetailSerializer
     lookup_field = 'username'
+    permission_classes = [AllowAny]
+
+class UserPostDetailAPIView(generics.RetrieveAPIView):
+    queryset = Post.objects.all()
+    serializer_class = UserPostDetailSerializer
+    lookup_field = 'creator'
     permission_classes = [AllowAny]
 
 class UserDeleteAPIView(generics.DestroyAPIView):

@@ -9,7 +9,8 @@ from .views import (
     UserDetailAPIView,
     UserListAPIView,
     UserDeleteAPIView,
-    UserUpdateAPIView
+    UserUpdateAPIView,
+    UserPostDetailAPIView
 )
 
 urlpatterns = [
@@ -18,6 +19,7 @@ urlpatterns = [
     path('login/', UserLoginAPIView.as_view(), name='user-login'),
     path('logout/', UserLogoutAPIView.as_view(), name='user-logout'),
     path('<slug:username>/', UserDetailAPIView.as_view(), name='user-detail'),
+    path('<slug:creator>/posts', UserPostDetailAPIView.as_view(), name='user-detail'),
     path('<slug:username>/edit/', UserUpdateAPIView.as_view(), name='user-update'),
     path('<slug:username>/delete/', UserDeleteAPIView.as_view(), name='user-delete'),
 ]

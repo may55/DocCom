@@ -5,6 +5,31 @@ from django.contrib.auth import authenticate
 from rest_framework.validators import UniqueValidator
 from django.contrib.humanize.templatetags.humanize import naturaltime
 from accounts.models import UserProfile
+from posts.models import Post
+from threads.models import Thread
+
+class UserPostDetailSerializer(serializers.ModelSerializer):
+    thread = serializers.HyperlinkedRelatedField(
+        read_only=True,
+        view_name='thread-detail'
+    )
+    creator = serializers.HyperlinkedRelatedField(
+        read_only=True,
+        view_name='user-detail',
+        lookup_field='username'
+    )
+    class Meta:
+        model = Post
+        fields = (
+            'id',
+            'content',
+            'thread',
+            'created_at',
+            'updated_at',
+            'creator'
+        )
+
+
 
 class UserDetailSerializer(serializers.ModelSerializer):
     bio = serializers.CharField(source='profile.bio')
@@ -195,22 +220,6 @@ class UserUpdateSerializer(serializers.ModelSerializer):
         instance.save()
         return instance
 
-# from rest_email_auth.serializers import RegistrationSerializer
-
-
-# class MyRegistrationSerializer(RegistrationSerializer):
-
-#     class Meta:
-#         # You must include the 'email' field for the serializer to work.
-#         fields = (
-#             MyUserModel.USERNAME_FIELD,
-#             'password',
-#             'email',
-#             'other',
-#             'required',
-#             'fields',
-#         )
-#         model = MyUserModel
 
 class UserCreateSerializer(serializers.ModelSerializer):
     # A field from the user's profile:
