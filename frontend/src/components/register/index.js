@@ -113,7 +113,7 @@ export default class Register extends Component {
             label="Licence"
             placeholder="125ASV23"
             type="text"
-            name="licence"
+            name="license"
             value={this.state.license}
             onChange={this.handleChange}
           />

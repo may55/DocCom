@@ -9,7 +9,7 @@ from rest_framework.authtoken.models import Token
 class AccountsTestCase(APITestCase):
     def setUp(self):
         # We want to go ahead and originally create a user.
-        self.test_user = User.objects.create_user('test', 'test@rengorum.com', 'anythingcanlah')
+        self.test_user = User.objects.create_user('test', 'test@docom.com', 'anythingcanlah')
 
         # URL for creating an account.
         self.create_url = reverse('user-register')
@@ -79,7 +79,7 @@ class AccountsTestCase(APITestCase):
     def test_create_user_with_preexisting_email(self):
         data = {
             'username': 'testuser2',
-            'email': 'test@rengorum.com',
+            'email': 'test@doccom.com',
             'password': 'testuser'
         }
 

@@ -86,7 +86,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'rengorum.urls'
+ROOT_URLCONF = 'doccom.urls'
 
 TEMPLATES = [
     {
@@ -105,7 +105,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'rengorum.wsgi.application'
+WSGI_APPLICATION = 'doccom.wsgi.application'
 
 
 # Database
@@ -154,9 +154,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 
-RENGORUM_DIR = os.path.dirname(BASE_DIR)
+FRONTEND_DIR = os.path.dirname(BASE_DIR)
 
-BACKEND_DIR = os.path.join(RENGORUM_DIR, 'backend')
+BACKEND_DIR = os.path.join(FRONTEND_DIR, 'backend')
 STATIC_ROOT = os.path.join(BACKEND_DIR, 'static')
 STATIC_URL = '/static/'
 
