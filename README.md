@@ -1,5 +1,5 @@
 # DocCom
-A forum application built for Doctors to come up and discuss issues related to Covid-19 happening in India, users can sign up and post questions and can answers to questions as well. In this critical situation of Covid-19 in India, having a community especially for Doctors helps for patience. 
+A forum application built for Doctors to come up and discuss issues related to Covid-19 happening in India, users can sign up and post questions and can answers to questions as well. In this critical situation of Covid-19 in India, having a community especially for Doctors helps for patience. Hope this helps Doctors during Covid-19 in India.
 
 ## Frontend
 > The frontend is a fast, interactive and simple Single-Page-Application (SPA), written in ES6 Javascript and built with following technologies:
