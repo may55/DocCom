@@ -1,16 +1,13 @@
-# Rengorum
-Single-page forum application built in ReactJS and Django Rest Framework.
-
-### [https://youtu.be/t9vWwxydREs](https://youtu.be/t9vWwxydREs)
-[![Forum app in ReactJS and Django](preview/frontend_1.PNG)](http://www.youtube.com/watch?v=t9vWwxydREs "Forum app in ReactJS and Django")
+# DocCom
+A forum application built for Doctors to come up and discuss issues related to Covid-19 happening in India, users can sign up and post questions and can answers to questions as well. In this critical situation of Covid-19 in India, having a community especially for Doctors helps for patience. 
 
 ## Frontend
 > The frontend is a fast, interactive and simple Single-Page-Application (SPA), written in ES6 Javascript and built with following technologies:
-> * [React v16](https://facebook.github.io/react/)
-> * [Redux v4](http://redux.js.org/)
-> * [React Router v4](https://github.com/ReactTraining/react-router)
-> * [Redux Thunk v2](https://github.com/gaearon/redux-thunk)
-> * [Redux Persist v5.9](https://github.com/rt2zz/redux-persist)
+> * [React](https://facebook.github.io/react/)
+> * [Redux](http://redux.js.org/)
+> * [React Router](https://github.com/ReactTraining/react-router)
+> * [Redux Thunk](https://github.com/gaearon/redux-thunk)
+> * [Redux Persist](https://github.com/rt2zz/redux-persist)
 > * [etc](https://github.com/endiliey/rengorum/blob/master/frontend/package.json)
 
 ### Demo Screenshots:
@@ -18,11 +15,18 @@ Single-page forum application built in ReactJS and Django Rest Framework.
 ![Screenshot 3](preview/frontend_3.PNG)
 ![Screenshot 4](preview/frontend_4.PNG)
 ![Screenshot 5](preview/frontend_5.PNG)
+![Screenshot 6](preview/frontend_6.PNG)
+![Screenshot 7](preview/frontend_7.PNG)
+![Screenshot 8](preview/frontend_8.PNG)
+![Screenshot 9](preview/frontend_9.PNG)
+![Screenshot 10](preview/frontend_10.PNG)
+![Screenshot 11](preview/frontend_11.PNG)
+![Screenshot 12](preview/frontend_12.PNG)
 
 ## Backend
 > The backend is a scalable system that provides data through its RESTful API (browseable API available), written in Python and built with following technologies:
-> * [Django v2.0](https://www.djangoproject.com/)
-> * [Djangorestframework v3.7](http://www.django-rest-framework.org/)
+> * [Django](https://www.djangoproject.com/)
+> * [Djangorestframework](http://www.django-rest-framework.org/)
 > * [etc](https://github.com/endiliey/rengorum/blob/master/requirements.txt)
 
 ## API endpoint
@@ -62,7 +66,7 @@ Make sure you have following software installed in your system:
 
 First, we need to clone the repository
 ```
-git clone https://github.com/endiliey/rengorum.git
+git clone https://github.com/may55/DocCom.git
 ```
 
 Install all required dependencies in an isolated environment
