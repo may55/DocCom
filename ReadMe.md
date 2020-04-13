@@ -11,17 +11,15 @@ A forum application built for Doctors to come up and discuss issues related to C
 > * [etc](https://github.com/endiliey/rengorum/blob/master/frontend/package.json)
 
 ### Demo Screenshots:
-![Screenshot 2](preview/frontend_2.PNG)
-![Screenshot 3](preview/frontend_3.PNG)
-![Screenshot 4](preview/frontend_4.PNG)
-![Screenshot 5](preview/frontend_5.PNG)
-![Screenshot 6](preview/frontend_6.PNG)
-![Screenshot 7](preview/frontend_7.PNG)
-![Screenshot 8](preview/frontend_8.PNG)
-![Screenshot 9](preview/frontend_9.PNG)
-![Screenshot 10](preview/frontend_10.PNG)
-![Screenshot 11](preview/frontend_11.PNG)
-![Screenshot 12](preview/frontend_12.PNG)
+![Screenshot 2](preview/frontend_2.png)
+![Screenshot 3](preview/frontend_3.png)
+![Screenshot 4](preview/frontend_4.png)
+![Screenshot 5](preview/frontend_5.png)
+![Screenshot 6](preview/frontend_6.png)
+![Screenshot 7](preview/frontend_7.png)
+![Screenshot 8](preview/frontend_8.png)
+![Screenshot 9](preview/frontend_9.png)
+![Screenshot 10](preview/frontend_10.png)
 
 ## Backend
 > The backend is a scalable system that provides data through its RESTful API (browseable API available), written in Python and built with following technologies:
