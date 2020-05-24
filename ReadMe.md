@@ -68,7 +68,7 @@ git clone https://github.com/may55/DocCom.git
 Install all required dependencies in an isolated environment
 
 ```
-cd rengorum/backend
+cd DocCom/backend
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -79,7 +79,7 @@ Copy the `.env.example` as `.env` in `backend` folder
 cp .env.example .env
 ```
 
-Install all required dependencies for frontend in rengorum/frontend folder by typing
+Install all required dependencies for frontend in DocCom/frontend folder by typing
 ```
 cd ../frontend
 yarn
