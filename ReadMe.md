@@ -8,7 +8,6 @@ A forum application built for Doctors to come up and discuss issues related to C
 > * [React Router](https://github.com/ReactTraining/react-router)
 > * [Redux Thunk](https://github.com/gaearon/redux-thunk)
 > * [Redux Persist](https://github.com/rt2zz/redux-persist)
-> * [etc](https://github.com/endiliey/rengorum/blob/master/frontend/package.json)
 
 ### Demo Screenshots:
 ![Screenshot 2](preview/frontend_2.png)
@@ -25,7 +24,6 @@ A forum application built for Doctors to come up and discuss issues related to C
 > The backend is a scalable system that provides data through its RESTful API (browseable API available), written in Python and built with following technologies:
 > * [Django](https://www.djangoproject.com/)
 > * [Djangorestframework](http://www.django-rest-framework.org/)
-> * [etc](https://github.com/endiliey/rengorum/blob/master/requirements.txt)
 
 ## API endpoint
 ```
